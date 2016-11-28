@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------
+# Basic Table Tweaks
+--------------------------------------------------------------*/
+.bt .bt-content {
+    margin-left: 30px;
+}
+
+.bt tr {
+    border-top: 3px solid #dadada;
+    
+}
+
+table.bt tbody td {
+    border-bottom: 1px solid #dadada;
+}

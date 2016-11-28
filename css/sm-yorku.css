@@ -1,0 +1,373 @@
+.sm-yorku {
+    background: #333;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+.sm-yorku a, .sm-yorku a:hover, .sm-yorku a:focus, .sm-yorku a:active {
+    padding: 13px 20px;
+    /* make room for the toggle button (sub indicator) */
+    padding-right: 58px;
+    color: white;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 14px;
+    text-decoration: none;
+}
+.sm-yorku a.current {
+    color: white;
+}
+.sm-yorku a.disabled {
+    color: #bbbbbb;
+}
+.sm-yorku a span.sub-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: auto;
+    right: 4px;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    font: bold 16px/34px monospace !important;
+    text-align: center;
+    text-shadow: none;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+.sm-yorku a.highlighted span.sub-arrow:before {
+    display: block;
+    content: '-';
+}
+.sm-yorku > li:first-child > a, .sm-yorku > li:first-child > :not(ul) a {
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+.sm-yorku > li:last-child > a, .sm-yorku > li:last-child > *:not(ul) a, .sm-yorku > li:last-child > ul,
+.sm-yorku > li:last-child > ul > li:last-child > a, .sm-yorku > li:last-child > ul > li:last-child > *:not(ul) a, .sm-yorku > li:last-child > ul > li:last-child > ul,
+.sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > a, .sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a, .sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > ul,
+.sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > a, .sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a, .sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul,
+.sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > a, .sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a, .sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul {
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+.sm-yorku > li:last-child > a.highlighted, .sm-yorku > li:last-child > *:not(ul) a.highlighted,
+.sm-yorku > li:last-child > ul > li:last-child > a.highlighted, .sm-yorku > li:last-child > ul > li:last-child > *:not(ul) a.highlighted,
+.sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > a.highlighted, .sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a.highlighted,
+.sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > a.highlighted, .sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a.highlighted,
+.sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > a.highlighted, .sm-yorku > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > *:not(ul) a.highlighted {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+.sm-yorku li {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.sm-yorku > li:first-child {
+    border-top: 0;
+}
+.sm-yorku ul {
+    background: rgba(162, 162, 162, 0.1);
+}
+.sm-yorku ul a, .sm-yorku ul a:hover, .sm-yorku ul a:focus, .sm-yorku ul a:active {
+    font-size: 16px;
+    border-left: 8px solid transparent;
+}
+.sm-yorku ul ul a,
+.sm-yorku ul ul a:hover,
+.sm-yorku ul ul a:focus,
+.sm-yorku ul ul a:active {
+    border-left: 16px solid transparent;
+}
+.sm-yorku ul ul ul a,
+.sm-yorku ul ul ul a:hover,
+.sm-yorku ul ul ul a:focus,
+.sm-yorku ul ul ul a:active {
+    border-left: 24px solid transparent;
+}
+.sm-yorku ul ul ul ul a,
+.sm-yorku ul ul ul ul a:hover,
+.sm-yorku ul ul ul ul a:focus,
+.sm-yorku ul ul ul ul a:active {
+    border-left: 32px solid transparent;
+}
+.sm-yorku ul ul ul ul ul a,
+.sm-yorku ul ul ul ul ul a:hover,
+.sm-yorku ul ul ul ul ul a:focus,
+.sm-yorku ul ul ul ul ul a:active {
+    border-left: 40px solid transparent;
+}
+
+@media (min-width: 899px) {
+    /* Switch to desktop layout
+    -----------------------------------------------
+       These transform the menu tree from
+       collapsible to desktop (navbar + dropdowns)
+    -----------------------------------------------*/
+    /* start... (it's not recommended editing these rules) */
+    .sm-yorku ul {
+        position: absolute;
+        width: 12em;
+    }
+
+    .sm-yorku li {
+        float: left;
+    }
+
+    .sm-yorku.sm-rtl li {
+        float: right;
+    }
+
+    .sm-yorku ul li, .sm-yorku.sm-rtl ul li, .sm-yorku.sm-vertical li {
+        float: none;
+    }
+
+    .sm-yorku a {
+        white-space: nowrap;
+    }
+
+    .sm-yorku ul a, .sm-yorku.sm-vertical a {
+        white-space: normal;
+    }
+
+    .sm-yorku .sm-nowrap > li > a, .sm-yorku .sm-nowrap > li > :not(ul) a {
+        white-space: nowrap;
+    }
+
+    /* ...end */
+    .sm-yorku {
+        padding: 0 10px;
+        background: #333;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;
+    }
+    .sm-yorku a, .sm-yorku a:hover, .sm-yorku a:focus, .sm-yorku a:active, .sm-yorku a.highlighted {
+        padding: 12px 12px;
+        color: white;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        -o-border-radius: 0 !important;
+        border-radius: 0 !important;
+    }
+    .sm-yorku a:hover, .sm-yorku a:focus, .sm-yorku a:active, .sm-yorku a.highlighted {
+        color: white;
+        background: #e31837;
+    }
+    .sm-yorku a.current {
+        color: white;
+    }
+    .sm-yorku a.disabled {
+        color: #bbbbbb;
+    }
+    .sm-yorku a.has-submenu {
+        padding-right: 24px;
+    }
+    .sm-yorku a span.sub-arrow {
+        top: 50%;
+        margin-top: -2px;
+        right: 12px;
+        width: 0;
+        height: 0;
+        border-width: 4px;
+        border-style: solid dashed dashed dashed;
+        border-color: white transparent transparent transparent;
+        background: transparent;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;
+    }
+    .sm-yorku a.highlighted span.sub-arrow:before {
+        display: none;
+    }
+    .sm-yorku li {
+        border-top: 0;
+    }
+    .sm-yorku > li > ul:before,
+    .sm-yorku > li > ul:after {
+        content: '';
+        position: absolute;
+        top: -18px;
+        left: 30px;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        border-width: 9px;
+        border-style: dashed dashed solid dashed;
+        border-color: transparent transparent #bbbbbb transparent;
+    }
+    .sm-yorku > li > ul:after {
+        top: -16px;
+        left: 31px;
+        border-width: 8px;
+        border-color: transparent transparent #333 transparent;
+    }
+    .sm-yorku ul {
+        border: 1px solid #333;
+        padding: 5px 0;
+        background: #333;
+        -webkit-border-radius: 0!important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        -o-border-radius: 0 !important;
+        border-radius: 0 !important;
+        -webkit-box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+    }
+    .sm-yorku ul a, .sm-yorku ul a:hover, .sm-yorku ul a:focus, .sm-yorku ul a:active, .sm-yorku ul a.highlighted {
+        border: 0 !important;
+        padding: 10px 20px;
+        color: white;
+    }
+    .sm-yorku ul a:hover, .sm-yorku ul a:focus, .sm-yorku ul a:active, .sm-yorku ul a.highlighted {
+        background: #e31837;  
+        color: white;
+    }
+    .sm-yorku ul a.current {
+        color: white;
+    }
+    .sm-yorku ul a.disabled {
+        background: white;
+        color: #cccccc;
+    }
+    .sm-yorku ul a.has-submenu {
+        padding-right: 20px;
+    }
+    .sm-yorku ul a span.sub-arrow {
+        right: 8px;
+        top: 50%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: dashed dashed dashed solid;
+        border-color: transparent transparent transparent white;
+    }
+    .sm-yorku span.scroll-up,
+    .sm-yorku span.scroll-down {
+        position: absolute;
+        display: none;
+        visibility: hidden;
+        overflow: hidden;
+        background: white;
+        height: 20px;
+    }
+    .sm-yorku span.scroll-up:hover,
+    .sm-yorku span.scroll-down:hover {
+        background: #eeeeee;
+    }
+    .sm-yorku span.scroll-up:hover span.scroll-up-arrow, .sm-yorku span.scroll-up:hover span.scroll-down-arrow {
+        border-color: transparent transparent #d23600 transparent;
+    }
+    .sm-yorku span.scroll-down:hover span.scroll-down-arrow {
+        border-color: #d23600 transparent transparent transparent;
+    }
+    .sm-yorku span.scroll-up-arrow, .sm-yorku span.scroll-down-arrow {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -6px;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        border-width: 6px;
+        border-style: dashed dashed solid dashed;
+        border-color: transparent transparent #333 transparent;
+    }
+    .sm-yorku span.scroll-down-arrow {
+        top: 8px;
+        border-style: solid dashed dashed dashed;
+        border-color: #333 transparent transparent transparent;
+    }
+    .sm-yorku.sm-rtl a.has-submenu {
+        padding-right: 12px;
+        padding-left: 24px;
+    }
+    .sm-yorku.sm-rtl a span.sub-arrow {
+        right: auto;
+        left: 12px;
+    }
+    .sm-yorku.sm-rtl.sm-vertical a.has-submenu {
+        padding: 10px 20px;
+    }
+    .sm-yorku.sm-rtl.sm-vertical a span.sub-arrow {
+        right: auto;
+        left: 8px;
+        border-style: dashed solid dashed dashed;
+        border-color: transparent #333 transparent transparent;
+    }
+    .sm-yorku.sm-rtl > li > ul:before {
+        left: auto;
+        right: 30px;
+    }
+    .sm-yorku.sm-rtl > li > ul:after {
+        left: auto;
+        right: 31px;
+    }
+    .sm-yorku.sm-rtl ul a.has-submenu {
+        padding: 10px 20px !important;
+    }
+    .sm-yorku.sm-rtl ul a span.sub-arrow {
+        right: auto;
+        left: 8px;
+        border-style: dashed solid dashed dashed;
+        border-color: transparent #333 transparent transparent;
+    }
+    .sm-yorku.sm-vertical {
+        padding: 10px 0;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+    }
+    .sm-yorku.sm-vertical a {
+        padding: 10px 20px;
+    }
+    .sm-yorku.sm-vertical a:hover, .sm-yorku.sm-vertical a:focus, .sm-yorku.sm-vertical a:active, .sm-yorku.sm-vertical a.highlighted {
+        background: white;
+    }
+    .sm-yorku.sm-vertical a.disabled {
+        background: #eeeeee;
+    }
+    .sm-yorku.sm-vertical a span.sub-arrow {
+        right: 8px;
+        top: 50%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: dashed dashed dashed solid;
+        border-color: transparent transparent transparent #333;
+    }
+    .sm-yorku.sm-vertical > li > ul:before,
+    .sm-yorku.sm-vertical > li > ul:after {
+        display: none;
+    }
+    .sm-yorku.sm-vertical ul a {
+        padding: 10px 20px;
+    }
+    .sm-yorku.sm-vertical ul a:hover, .sm-yorku.sm-vertical ul a:focus, .sm-yorku.sm-vertical ul a:active, .sm-yorku.sm-vertical ul a.highlighted {
+        background: #eeeeee;
+    }
+    .sm-yorku.sm-vertical ul a.disabled {
+        background: white;
+    }
+}
