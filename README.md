@@ -1,45 +1,136 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
+# Faculty of Environmental Studies York University Theme
 
-_s
-===
+This is a WordPress theme created for the Faculty of Environmental Studies, York University.
 
-Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+## Core Features
 
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
+* Based on the starter theme [Underscores](https://github.com/Automattic/_s)
+* Included [Bootstrap 3.3.7](https://github.com/twbs/bootstrap#quick-start)
+* Included [FontAwesome 4.7.0](http://fontawesome.io/) 
+* Fully responsive Menu by implementing [Smartmenus v1.0.1](https://github.com/vadikom/smartmenus)
+* Mobile Responsive and Collapsible Tables by implementing [Basictable](https://github.com/jerrylow/basictable)
 
-* A just right amount of lean, well-commented, modern, HTML5 templates.
-* A helpful 404 template.
-* A custom header implementation in `inc/custom-header.php` just add the code snippet found in the comments of `inc/custom-header.php` to your `header.php` template.
-* Custom template tags in `inc/template-tags.php` that keep your templates clean and neat and prevent code duplication.
-* Some small tweaks in `inc/extras.php` that can improve your theming experience.
-* A script at `js/navigation.js` that makes your menu a toggled dropdown on small screens (like your phone), ready for CSS artistry. It's enqueued in `functions.php`.
-* 2 sample CSS layouts in `layouts/` for a sidebar on either side of your content.
-* Smartly organized starter CSS in `style.css` that will help you to quickly get your design off the ground.
-* Licensed under GPLv2 or later. :) Use it to make something cool.
+## Theme Features
 
-Getting Started
----------------
+* Custom Social Media Links via Customizer
+* Custom Emergency Message via Customizer
+* Universal Search Bar available in the header
+* New Quick Links with York University Search 
+* Fully Mobile Responsive, including Menus and Tables
+* Integrated Social Media Links in the Footer
+* 3 Footer Widgets
+* 1 Side bar Widget
+* 1 Slider Widget 
+* Sticky Navigation on Desktop View
+* Enhanced web accessibility to help meet AODA web accessibility requirement
 
-If you want to keep it simple, head over to http://underscores.me and generate your `_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
+# Privacy & Legal
+York University has a policy on access to information and protection of privacy 
+and the University complies with Ontario's Freedom of Information and Protection 
+of Privacy Act, R.S.O. 1990, c. F.31. Links to these documents and other 
+information on access to information and protection of personal information 
+are available on York's Information and Privacy Office website.
 
-If you want to set things up manually, download `_s` from GitHub. The first thing you want to do is copy the `_s` directory and change the name to something else (like, say, `megatherium`), and then you'll need to do a five-step find and replace on the name in all the templates.
+Questions about access to information and protection of privacy at York University 
+should be referred to the Information and Privacy Coordinator.
 
-1. Search for `'_s'` (inside single quotations) to capture the text domain.
-2. Search for `_s_` to capture all the function names.
-3. Search for `Text Domain: _s` in style.css.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks.
-5. Search for `_s-` to capture prefixed handles.
+## Terms & Conditions
+York University operates and maintains this website, www.yorku.ca, including all 
+content thereon (the "Site"). By accessing, browsing or using the Site, you accept 
+and agree to these terms and conditions (the "Terms"). York University may amend 
+the Terms at any time without notice. It is your responsibility to review the 
+Terms each time you use the Site. Please exit the Site immediately if you do 
+not accept or agree to the Terms.
 
-OR
+## Ownership
+All content, designs, graphics, pictures, illustrations, software, artwork, 
+video, sound, names, words, titles, phrases, logos and marks displayed on the 
+Site are owned by York University, its licensors, or the party accredited as 
+owner, and protected by copyright, trade-mark and intellectual property laws, 
+and treaty provision laws.
 
-* Search for: `'_s'` and replace with: `'megatherium'`
-* Search for: `_s_` and replace with: `megatherium_`
-* Search for: `Text Domain: _s` and replace with: `Text Domain: megatherium` in style.css.
-* Search for: <code>&nbsp;_s</code> and replace with: <code>&nbsp;Megatherium</code>
-* Search for: `_s-` and replace with: `megatherium-`
+## Use
+You shall not, without our prior written permission use the Site for purposes 
+other than your own personal, non-commercial use. Further, you may not frame 
+the Site or any part thereof on any internet website. You acquire absolutely 
+no rights or licenses to the Site other than the limited right to use the Site 
+in accordance with the Terms. You shall not use the Site for any purpose except 
+as expressly provided herein.
 
-Then, update the stylesheet header in `style.css` and the links in `footer.php` with your own information. Next, update or delete this readme.
+## Disclaimer
+Your use of the Site is at your sole risk. The Site is provided "as is" and 
+without warranties of any kind, whether express or implied, including but not 
+limited to the implied warranties of merchantability, non-infringement or third 
+party rights and fitness for a particular purpose, and any warranties that 
+access to the Site is uninterrupted or error-free, that the Site is secure or 
+free of viruses or other harmful material, or that information on the Site is 
+complete, accurate or timely.
 
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
+## Limitation of Liability
+York University, its Board of Governors, officers, employees and agents are not 
+liable to you for any damages, harm or injury whatsoever including without 
+limitation direct, indirect, incidental, special, consequential or punitive 
+damages, lost profits, damages resulting from lost data or business interruption, 
+arising from or relating to the use of or inability to use the Site, whether 
+based on warranty, contract, tort or other legal theory, regardless of whether 
+any of York University, its Board of Governors, officers, employees or agents 
+has been negligent or has been advised of the possibility of such damages.
 
-Good luck!
+## Indemnification
+You shall defend, indemnify, and hold harmless York University, its Board of 
+Governors, officers, employees and agents from and against any claim or demand 
+made by an third party, and all liabilities, damages, costs and expenses 
+(including but not limited to reasonable legal fees) arising out of or relating 
+to your browsing or use of the Site, content that you transmit to the Site, 
+or your breach of any of the Terms.
+
+## Third Party Sites
+The Site may contain links to third party websites. These links are provided 
+solely as convenience to you. York University is not responsible for the content 
+of any third party website and does not endorse the information contained 
+therein or guarantee its quality, accuracy, reliability, completeness, 
+currency, timeliness, non-infringement, merchantability or fitness for any purpose.
+
+## Security
+Any information sent or received over the internet is generally not secure. 
+York University does not guarantee the security of any communication to or from 
+the Site.
+
+## Termination
+York University may in its sole discretion restrict or terminate your access to 
+the Site at any time, without notice. In the event of termination, you are no 
+longer permitted to access the Site. York University is not liable to any party 
+for such termination.
+
+## Governing Law
+The Terms are governed by the laws of the Province of Ontario and the federal 
+laws of Canada applicable therein, and these laws apply to the use of the Site, 
+notwithstanding your domicile, residency or physical location. You hereby attorn 
+to the exclusive jurisdiction of the courts of the Province of Ontario and all 
+courts competent to hear appeals therefrom.
+
+The Site is intended for use only in jurisdictions where it may lawfully be 
+offered for use.
+
+## General Provisions
+The Terms including any documents referenced herein, constitute the entire 
+agreement between you and York University relating to your use of the Site.
+
+Any failure to insist upon or enforce strict performance of any provisions of 
+the Terms is not to be construed as a waiver of any provision or right.
+
+If any of the provisions contained in the Terms is determined to be void, 
+invalid, or unenforceable, then such determination does not affect the remaining provisions.
+
+The Terms are binding upon you, your heirs, executors, administrators, s
+uccessors and permitted assigns.
+
+## Copyright and Trade-mark Notices
+© York University, 2004. All rights reserved. No part of the Site may be 
+reproduced, modified, distributed, sold, published, broadcast, retransmitted 
+in any form without the prior written consent of York University.
+
+The York University name, YORK U & YORK are marks, badges, crests and emblems 
+of York University. Other names, words, titles, phrases, logos, designs, graphics, 
+icons and trade marks displayed on the Site may constitute marks, badges, 
+crests and emblems of York University or marks of third parties.
